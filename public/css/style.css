@@ -1,0 +1,19 @@
+.header {
+	height: 600px;
+	background-image: url('../img/bg1.jpg');
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
